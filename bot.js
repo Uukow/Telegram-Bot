@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 // Replace with your Telegram Bot Token
-const token = '6877474168:AAFyYugyNZzXFwdkNMPqXHsWeQFxU8ZR-zY';
+const token = 'YOUR_BOT_API_TOKEN';
 const bot = new TelegramBot(token, {polling: true});
 
 // Array to store connected channels
